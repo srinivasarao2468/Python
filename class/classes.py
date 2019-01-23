@@ -19,3 +19,7 @@ print(emp1.fullname())
 print(emp2.fullname())
 print(emp1.amount_rise())
 print(emp2.amount_rise())
+
+#This is one way to call methods from class but not prefer
+print(Employee.fullname(emp1))
+print(Employee.fullname(emp2))
